@@ -1,0 +1,74 @@
+.container {
+  position: fixed;
+  top: 8px;
+  left: 0;
+  z-index: 99999999;  
+  color: #000000d9;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  pointer-events: none;
+  text-align: center;
+  animation: enter-leave 2s ease-in-out;
+
+  /* -webkit-animation-name: MessageMoveOut;
+  animation-name: MessageMoveOut ; 
+  -webkit-animation-duration: 0.3s;   */
+}
+
+.card {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+@keyframes enter-leave {
+  0% {
+    top: -60px;
+  }
+  7.5% {
+    top: 16px;
+  }
+  92.5% {
+    top: 16px;
+  }
+  100% {
+    top: -60px;
+  }
+}
+
+@-webkit-keyframes MessageMoveOut {
+  0% {
+    max-height: 150px;
+    padding: 8px;
+    opacity: 1;
+  }
+  100% {
+    max-height: 0;
+    padding: 0;
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+@keyframes MessageMoveOut {
+  0% {
+    max-height: 150px;
+    padding: 8px;
+    opacity: 1;
+  }
+  100% {
+    max-height: 0;
+    padding: 0;
+    opacity: 0;
+  }
+}

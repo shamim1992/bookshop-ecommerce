@@ -1,0 +1,30 @@
+.container {
+  margin: auto;
+  display: block;
+  padding-top: 60px;
+  width: 400px;
+  border: 1px solid #efefef;
+  margin: auto;
+  padding: 20px;
+  display: block;
+}
+
+.login {
+  background-color: var(--main);
+  width: 100%;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.note {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.forgot_password {
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}

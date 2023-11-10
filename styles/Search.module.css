@@ -1,0 +1,44 @@
+.container {
+  min-height: 100vh;
+  overflow: hidden;
+}
+.suggestions {
+  width: 100%;
+}
+.query {
+  font-size: 15px;
+  width: 800px;
+  margin: auto;
+  margin-top: 5px;
+}
+.search_bar {
+  width: 800px;
+  margin: auto;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.search_bar input {
+  height: 45px;
+  font-size: 15px;
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  .suggestions {
+    width: 100%;
+    margin: 0 -10px;
+  }
+  .suggestions .query {
+  }
+  .search_bar {
+    width: 100%;
+  }
+}

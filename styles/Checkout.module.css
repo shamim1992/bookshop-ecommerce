@@ -1,0 +1,102 @@
+.container {
+  min-width: 1200px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.left_section {
+  margin-right: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 30px;
+  position: relative;
+}
+.right_section {
+  margin-left: 10px;
+  padding: 20px;
+  background-color: white;
+}
+
+.cart_items {
+}
+.test {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #282c3f;
+  box-shadow: 0 3px 5px 0 rgb(40 44 63 / 40%);
+  top: 34px;
+  left: -30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.coupon {
+  border: 1px dashed #ccc;
+  padding: 15px;
+  margin: 10px 0;
+}
+.billing {
+  margin: 15px 0;
+}
+
+.container h4 {
+  font-size: 15px;
+}
+
+.payment_card {
+  /* background-color: #ccc; */
+  padding: 10px;
+  position: relative;
+  border: 1px solid #dee2e6;
+  display: flex;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.payment_card h5 {
+  font-size: 14px;
+}
+.payment_card img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.place_order {
+  height: 40px;
+  background-color: var(--main);
+  outline: 0;
+  cursor: pointer;
+  border: 0;
+  color: #fff;
+  margin-top: 10px;
+  text-transform: uppercase;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: 600;
+  width: 100%;
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    min-width: 100%;
+    max-width: 100%;
+    margin-top: 0;
+  }
+
+  .left_section {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 20px 10px;
+  }
+  .right_section {
+    margin-right: 10px;
+    padding: 10px;
+  }
+}

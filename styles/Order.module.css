@@ -1,0 +1,63 @@
+.card {
+  display: flex;
+  margin: 15px 0;
+  border: 1px solid #efefef;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.card .content {
+  margin: 0 1.2rem;
+  width: 100%;
+  /* display: flex; 
+  justify-content: space-between; */
+}
+
+.card .address {
+  padding: 5px 0;
+}
+.card .address h6 {
+  font-size: 14px;
+  line-height: 10px;
+  font-weight: 400;
+}
+.card .item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.card .item i {
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+.card .content h5 {
+  font-size: 1rem;
+}
+.card .content p {
+  opacity: 0.7;
+}
+.card .view_details {
+  background: none;
+  border: none;
+  padding: 0;
+  font-weight: bold;
+  color: var(--main);
+  font-size: 0.75rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  .card .content {
+    margin: 0 10px;
+  }
+}
+.review_section {
+  border-top: 1px solid #efefef;
+  padding-top: 20px;
+  margin-top: 20px;
+}

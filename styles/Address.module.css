@@ -1,0 +1,39 @@
+.container {
+  overflow-y: auto;
+  max-height: 100vh;
+}
+.card {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.card.active {
+  border: 1px solid var(--main);
+  border-radius: 3px;
+}
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.15) !important;
+}
+.card h5 {
+  font-size: 14px;
+}
+.card p {
+  font-size: 12px;
+  line-height: 15px;
+  opacity: 0.8;
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+.actions button {
+  background: none;
+  outline: 0;
+  border: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 600px) {
+}

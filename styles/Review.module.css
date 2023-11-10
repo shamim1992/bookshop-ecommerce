@@ -1,0 +1,45 @@
+.container {
+}
+.container h3 {
+}
+.card {
+  /* background-color: #fbfbfb; */
+  padding: 15px;
+  display: flex;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.card .user_icon {
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  font-size: 40px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  color: #808080;
+}
+.card h5 {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.card h6 {
+  font-size: 13.5px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+.card p {
+}
+
+.card mark {
+  font-size: 14px;
+  font-weight: 300;
+  background-color: #f0f0f0;
+}
+@media only screen and (max-width: 991px) {
+  .container {
+  }
+}

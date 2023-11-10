@@ -1,0 +1,28 @@
+.container {
+}
+.card {
+  position: relative;
+  display: block;
+  height: 410px;
+}
+.image {
+  background-color: #e4e6ec;
+  object-fit: cover;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    background-color: white;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+  .card {
+    height: 180px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #e4e6ec;
+    /* padding-left: 100px !important; */
+  }
+  .image {
+    width: 300px;
+  }
+}

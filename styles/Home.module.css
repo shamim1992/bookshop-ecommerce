@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1200px) {
+  .container {
+    position: relative;
+    margin: 0 auto;
+    background: white;
+  }
+  .search_bar {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    min-height: calc(100vh - 100px);
+  }
+
+  .search_bar {
+    padding: 10px;
+    /* border: 1px solid #efefef; */
+    margin: 0 10px;
+    font-size: 14px;
+    display: flex;
+    color: #808080;
+    align-items: center;
+    background: #f8f9fa;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "bookshop-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5",
+    "axios": "^0.27.2",
+    "next": "12.1.6",
+    "nextjs-progressbar": "^0.0.14",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-icons": "^4.11.0",
+    "react-otp-input": "^3.1.0",
+    "react-razorpay": "^2.0.1",
+    "react-redux": "^8.0.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
+  }
+}

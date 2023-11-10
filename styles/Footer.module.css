@@ -1,0 +1,30 @@
+.footer {
+  padding: 3rem;
+  background: var(--main);
+  margin-top: 30px;
+}
+.footer h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white;
+}
+.footer a {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+.footer h6 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.footer p {
+  color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .footer {
+    padding: 5rem 1rem;
+  }
+}

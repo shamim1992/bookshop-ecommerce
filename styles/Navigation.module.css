@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  position: fixed;
+  height: 60px;
+  background: white; 
+  z-index: 999;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.075) !important;
+  border-top: 1px solid #efefef; 
+  margin-bottom: -3px;
+}
+
+.nav_item {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; 
+}
+
+
+
+
+
+@media only screen and (min-width: 991px) {
+  .container {
+    display: none !important;
+  }
+}
+
+
